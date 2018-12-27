@@ -1,0 +1,370 @@
+.city{
+	position : relative;
+	list-style-image: url(img/small_red_dot.png);
+	height: 0px;
+    font-family: Aller_Rg;
+	color: black;
+}
+.city a{
+	cursor: pointer;
+    position: relative;
+    margin-left: -5%;
+}
+.notHidden{
+    display: block;
+}
+.popup{
+    display: none;
+    position:absolute;
+    top:15px;
+    left:0px;
+    z-index: 1;
+    color: #211D70;
+    background: #F06C1C;
+    padding:10px;
+    border: solid 2px #211D70;
+    border-radius: 10px;
+    min-width: 200px;
+    cursor: default;
+}
+#pMumbai{
+    top: -200px;
+    left: 55px;
+}
+#pCoimbatore{
+    top: -110px;
+    left: 80px;
+}
+#pCochin{
+    top: -120px;
+    left: 60px;
+}
+#pMadurai{
+    top: -100px;
+    left: 60px;
+}
+#pTrivandrum{
+    top: -180px;
+    left: 80px;
+}
+#pPondicherry{
+    top: -60px;
+    left: 80px;
+}
+
+
+
+#Mumbai{
+    top: 60.5%;
+    left: 25%;
+}
+#Jammu{
+    top: 18%;
+    left: 31%;
+}
+#Parwanoo{
+    top: 21%;
+    left: 37%;
+}
+#Jalandhar{
+    top: 23%;
+    left: 32.5%;
+}
+#Ludhiana{
+    top: 25%;
+    left: 33%;
+}
+#Chandigarh{
+    top: 25.5%;
+    left: 35%;
+}
+#Panchkula{
+    top: 27%;
+    left: 34.5%;
+}
+#Dehradun{
+    top: 27%;
+    left: 39.5%;
+}
+#Haldwani{
+    top: 30%;
+    left: 44.5%;
+}
+#Gurgaon{
+    top: 30.5%;
+    left: 36%;
+}
+#Delhi{
+    top: 32%;
+    left: 37%;
+}
+#Ghaziabad{
+    top: 33.5%;
+    left: 37.5%;
+}
+#Agra{
+    top: 36%;
+    left: 39.3%;
+}
+#Jaipur{
+    top: 37.5%;
+    left: 34%;
+}
+#Lucknow{
+    top: 38%;
+    left: 44.5%;
+}
+#Kanpur{
+    top: 39.5%;
+    left: 45%;
+}
+#Gorakhpur{
+    top: 38.2%;
+    left: 53.5%;
+}
+#Siliguri{
+    top: 37.5%;
+    left: 68%;
+}
+#Guwahati{
+    top: 39.5%;
+    left: 74%;
+}
+#Allahabad{
+    top: 42%;
+    left: 48%;
+}
+#Patna{
+    top: 41.9%;
+    left: 58%;
+}
+#Varanasi{
+    top: 43.5%;
+    left: 52%;
+}
+#Udaipur{
+    top: 46%;
+    left: 28.4%;
+}
+#Bhopal{
+    top: 48%;
+    left: 37%;
+}
+#Ahmedabad{
+    top: 48%;
+    left: 25%;
+}
+#Ranchi{
+    top: 48%;
+    left: 59.1%;
+}
+#Jabalpur{
+    top: 49.5%;
+    left: 44%;
+}
+#Jamshedpur{
+    top: 51%;
+    left: 62%;
+}
+#Kolkata{
+    top: 52.5%;
+    left: 67.9%;
+}
+#Indore{
+    top: 49%;
+    left: 32%;
+}
+#Rajkot{
+    top: 51%;
+    left: 18.5%;
+}
+#Baroda{
+    top: 50.7%;
+    left: 24.9%;
+}
+#Surat{
+    top: 53%;
+    left: 24.7%;
+}
+#Amravati{
+    top: 54.5%;
+    left: 39.2%;
+}   
+#Nagpur{
+    top: 55%;
+    left: 42%;
+}
+#Raipur{
+    top: 57%;
+    left: 48%;
+}
+#Sambalpur{
+    top: 54.5%;
+    left: 54.5%;
+}
+#Trivandrum{
+    top: 89.5%;
+    left: 36.2%;
+}
+#Bhubaneshwar{
+    top: 57.9%;
+    left: 59.9%;
+}
+#Nasik{
+    top: 57.9%;
+    left: 28%;
+}
+#Aurangabad{
+    top: 59%;
+    left: 31.5%;
+}
+#Pune{
+    top: 62.2%;
+    left: 27.5%;
+}
+#Hyderabad{
+    top: 66%;
+    left: 40.4%;
+}
+#Kolhapur{
+    top: 67%;
+    left: 29%;
+}
+#Vishakhapatnam{
+    top: 65.8%;
+    left: 51%;
+}
+#Vijaywada{
+    top: 68%;
+    left: 44%;
+}
+#Goa{
+    top: 71%;
+    left: 28%;
+}
+#Hubli{
+    top: 72%;
+    left: 31.5%;
+}
+#Mangalore{
+    top: 77%;
+    left: 31%;
+}
+#Bangalore{
+    top: 77.5%;
+    left: 39%;
+}
+#Chennai{
+    top: 77.4%;
+    left: 45%;
+}
+#Mysore{
+    top: 80%;
+    left: 35.5%;
+}
+#Salem{
+    top: 81.5%;
+    left: 38%;
+}
+#Pondicherry{
+    top: 82%;
+    left: 43.5%;
+}
+#Calicut{
+    top: 83%;
+    left: 33.5%;
+}
+#Coimbatore{
+    top: 83.5%;
+    left: 36.5%;
+}
+#Cochin{
+    top: 86.5%;
+    left: 35%;
+}
+#Madurai{
+    top: 86.4%;
+    left: 39.5%;
+}
+#contactmap{
+    width: 900px;
+    height: 900px;
+    background-image: url(img/india.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+@media(max-width: 649px){
+    #contactmap{
+            width: 400px;
+            height: 400px;
+        }
+    .city{
+        max-width: 80px;
+    }
+    .city a{
+        font-size: 10px;
+    }
+}
+@media(min-width: 650px) and (max-width: 900px){
+    .city{
+        max-width: 100px;
+    }
+    .city a{
+        font-size: 11px;
+    }
+    #contactmap{
+            width: 600px;
+            height: 600px;
+        }
+}
+@media (min-width: 901px) and (max-width: 1199px){
+    .city{
+        max-width: 100px;
+    }
+    .city a{
+        font-size: 12px;
+    }
+    #contactmap{
+        width: 800px;
+        height: 800px;
+    }
+}
+@media (min-width: 1200px){
+    .city{
+        max-width: 120px;
+    }
+    .city a{
+        font-size: 14px;
+    }
+    #contactmap{
+        width: 900px;
+        height: 900px;
+    }
+    
+}
+    #aLudhiana{
+        margin-left: -63%;
+    }
+    #aPanchkula{
+        margin-left: -68%;
+    }
+    #aAhmedabad{
+        margin-left: -78%;
+    }
+    #aAmravati{
+        margin-left: -61%;
+    }
+    #aBangalore{
+        margin-left: -30%;
+        position: relative;
+        top: -10px;
+    }
+    #aMangalore{
+        margin-left: -69%;
+    }
+    #aCalicut{
+        margin-left: -50%;
+    }
+    #aCochin{
+        margin-left: -50%;
+    }
